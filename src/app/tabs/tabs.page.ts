@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FeedPage } from '../feed/feed.page';
 
 @Component({
   selector: 'app-tabs',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
+    tab4Root = FeedPage;
   constructor() {}
 
 }
